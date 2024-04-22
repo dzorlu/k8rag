@@ -1,0 +1,2 @@
+config:
+  rag-toy:modelContainerPort: "7869"

@@ -1,0 +1,4 @@
+name: rag-toy
+runtime:
+  name: python
+description: A minimal RAG implementation

@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "fastapi-commandr"
+version = "0.1.0"
+description = ""
+authors = ["Deniz Zorlu <dzorlu@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi= "0.74.*"
+requests = "2.27.1"
+sentencepiece = "0.1.*"
+torch = "2.2.*"
+transformers = "4.39.*"
+uvicorn = "0.17.*"
+# bitsandbytes = "0.42.*" 
+# accelerate = "0.29.2"
+
+
+[build-system]
+
+
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
